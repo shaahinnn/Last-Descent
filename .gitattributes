@@ -5,3 +5,4 @@
 *.compute linguist-detectable=false
 *.unity linguist-detectable=false
 **/*.unity linguist-detectable=false
+Assets/Scenes/** linguist-detectable=false
