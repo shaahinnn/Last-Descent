@@ -1,0 +1,6 @@
+# Count gameplay scripts, not Unity scene and shader assets.
+*.shader -linguist-detectable
+*.hlsl -linguist-detectable
+*.cginc -linguist-detectable
+*.compute -linguist-detectable
+*.unity -linguist-detectable
