@@ -4,3 +4,4 @@
 *.cginc linguist-detectable=false
 *.compute linguist-detectable=false
 *.unity linguist-detectable=false
+**/*.unity linguist-detectable=false
