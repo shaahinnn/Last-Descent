@@ -1,8 +1,5 @@
-# Count gameplay scripts, not Unity scene and shader assets.
-*.shader linguist-detectable=false
-*.hlsl linguist-detectable=false
-*.cginc linguist-detectable=false
-*.compute linguist-detectable=false
-*.unity linguist-detectable=false
-**/*.unity linguist-detectable=false
-Assets/Scenes/** linguist-detectable=false
+# Show C# scripts in the repository language breakdown.
+* -linguist-detectable
+**/* -linguist-detectable
+*.cs linguist-detectable
+**/*.cs linguist-detectable
