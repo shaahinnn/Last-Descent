@@ -2,6 +2,10 @@
 
 Last Descent is a 3D Unity sci-fi game set in a futuristic space colony. Explore neon-lit habitats as a small astronaut, move between elevated platforms, and navigate darker industrial areas.
 
+## Gameplay Demo
+
+[▶ Watch or download the Last Descent gameplay demo (MP4)](https://github.com/shaahinnn/Last-Descent/releases/download/demo-v1.0/Last.Descent.mp4)
+
 ## Screenshots
 
 ### Title screen
