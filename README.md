@@ -2,7 +2,7 @@
 
 A 3D Unity sci-fi platformer set in a futuristic space colony. Explore neon-lit habitats, move between elevated platforms, and navigate darker industrial areas.
 
-[▶ Watch or download the gameplay demo](https://github.com/shaahinnn/Last-Descent/releases/download/demo-v1.0/Last.Descent.mp4)
+**[▶ Watch or download the gameplay demo](https://github.com/shaahinnn/Last-Descent/releases/download/demo-v1.0/Last.Descent.mp4)**
 
 ## Gameplay systems
 
@@ -10,6 +10,13 @@ A 3D Unity sci-fi platformer set in a futuristic space colony. Explore neon-lit 
 - Hazards and environmental navigation
 - Gameplay UI and player feedback
 - Low-poly sci-fi environments
+
+## Technical breakdown
+
+- **Movement:** `Movement` reads thrust and rotation input actions, applies thrust through a `Rigidbody`, and drives booster, particle, and audio feedback.
+- **Collision and outcomes:** `CollisionHandler` handles hazards, health display, finish/win states, and the related success or failure feedback.
+- **Level interaction:** `Oscillator` moves platforms or hazards between configured endpoints using a ping-pong motion.
+- **Challenge:** Make movement and collision results legible during play. Input feedback, health changes, and win/failure transitions are handled by gameplay components rather than relying on environment visuals alone.
 
 ## Screenshots
 
